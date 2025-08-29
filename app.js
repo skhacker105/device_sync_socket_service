@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Simple REST API test route
 app.get("/", (req, res) => {
-    res.send({ status: "ok", message: "Creator Hub backend is running" });
+    res.send({ status: "ok", message: "Device Sync Socket backend is running" });
 });
 
 // Create HTTP + WebSocket server
